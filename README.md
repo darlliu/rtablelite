@@ -11,7 +11,7 @@ r=rtable()
 r.loadf("./myfile")
 print r.head 
 #this shows the header as a list of column labels
-#assume this gives "["Col1","Col2"] with 3 rows each
+#assume this gives "["Col1","Col2"] and the table has 3 rows each column
 
 col2s=r%"Col2" #get all values from column with label "Col2"
 
