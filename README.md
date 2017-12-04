@@ -13,6 +13,8 @@ print r.head
 #this shows the header as a list of column labels
 #assume this gives "["Col1","Col2"] with 3 rows each
 
+col2s=r%"Col2" #get all values from column with label "Col2"
+
 r<<([100,200,300],"newCol3")#add a new column
 
 r<([4,40,400]) #add a new row
