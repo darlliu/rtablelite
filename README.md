@@ -23,7 +23,7 @@ r.filter(lambda x: int(x)>=200, "newCol3")
 #filter using simple lambdas on values within a single column, values are by default strings
 
 open("filtered_table.tsv","w").write(repr(r))
-#using repr gives the right string for tsv output, with filtering and ordering in tact
+#using repr gives the right string for tsv output, with filtering and ordering intact
 
 r.reorder()#can filter or order rows, but need to call reorder inbetween
 
