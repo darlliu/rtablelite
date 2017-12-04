@@ -4,7 +4,7 @@ import copy, csv,sys
 csv.field_size_limit(sys.maxsize)
 class rtable(object):
     """
-    A lightweight table tool that can do IO and class generation.
+    A lightweight table tool that can do IO and simple filtering/ordering.
     """
 
     def __init__(self, another = None):
