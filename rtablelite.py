@@ -8,14 +8,6 @@ class rtable(object):
     """
 
     def __init__(self, another = None):
-        """
-        Example usage
-        a= tabular()
-        b= tabular(a)
-        now a and b are deep copies
-        c= tabular(["C1"], [[1],[2]])
-        c is now a valid table of shape 2,1
-        """
         self.header = {}
         #unique identifier
         self.data = []
